@@ -62,7 +62,7 @@ class SkipList {
     // The returned iterator is not valid.
     explicit Iterator(const SkipList* list);
 
-    // Returns true iff the iterator is positioned at a valid node.
+    // Returns true if the iterator is positioned at a valid node.
     bool Valid() const;
 
     // Returns the key at the current position.
